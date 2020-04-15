@@ -1,0 +1,41 @@
+@import "local-variables";
+
+.home-banner {
+  width: 100%;
+  height: 400px;
+  background: linear-gradient(rgba(0, 0, 0, 0.6), rgba(0, 0, 0, 0.6)), url("../images/hero_demo.jpg") no-repeat center center;
+  background-size: 100% 100%;
+
+  .banner-content {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    height: 100%;
+
+    .banner-text {
+      text-align: center;
+      color: white;
+      width: 65%;
+
+      p {
+        font-family: OpenSans-Light;
+        font-size: 1.6rem;
+        line-height: 1.2;
+      }
+    }
+
+    .banner-buttons {
+      margin-top: 20px;
+      display: flex;
+      justify-content: space-between;
+      align-items: center;
+    }
+
+    .btn-danger {
+      margin-right: 5px;
+      background-color: $pink-color;
+    }
+  }
+
+}

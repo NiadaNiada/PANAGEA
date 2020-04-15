@@ -1,0 +1,30 @@
+
+@font-face {
+  font-family: 'Helvetica';
+  font-style: normal;
+  font-weight: normal;
+  src: local('Helvetica'),
+  url('../webfonts/Helvetica.ttf') format('truetype'); /* Safari, Android, iOS */
+}
+@font-face {
+  font-family: 'Helvetica-Bold';
+  font-style: normal;
+  font-weight: 900;
+  src: local('Helvetica'),
+  url('../webfonts/Helvetica-Bold.ttf') format('truetype'); /* Safari, Android, iOS */
+}
+@font-face {
+  font-family: 'Helvetica-light';
+  font-style: normal;
+  font-weight: 400;
+  src: local('Helvetica'),
+  url('../webfonts/helvetica-light.ttf') format('truetype'); /* Safari, Android, iOS */
+}
+
+@font-face {
+  font-family: 'OpenSans-Light';
+  font-style: normal;
+  font-weight: 300;
+  src: local('OpenSans-Light'),
+  url('../webfonts/OpenSans-Light.ttf') format('truetype'); /* Safari, Android, iOS */
+}

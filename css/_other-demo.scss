@@ -1,0 +1,54 @@
+@import "local-variables";
+
+.other-demo {
+  display: flex;
+  height: auto;
+  background: $background-grey-color;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  align-content: center;
+  margin-bottom: 20px;
+
+  .other-text {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    p {
+      text-align: center;
+    }
+  }
+}
+
+.other-grid {
+  display: grid;
+  grid-template-columns: 1fr 1fr 1fr;
+  grid-gap: 20px;
+  margin: 10px;
+  .column {
+    width: 100%;
+    display: block;
+    padding-right: 0px;
+    padding-left: 0px;
+    margin-bottom: 5px;
+
+
+
+    img {
+      width: 100%;
+      object-position: top;
+      object-fit: cover;
+      height: 350px;
+      box-shadow: 0 8px 8px #d5dade;
+      border-radius: 4px;
+    }
+    h5 {
+      text-align: center;
+      margin-top: 10px;
+      margin-bottom: 5px;
+      .span-text {
+        color: $pink-color;
+      }
+    }
+  }
+}
